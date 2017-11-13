@@ -1,7 +1,8 @@
 /* App styles */
 
 * {
-  border: 1px solid black;
+  /*outline: 1px dashed black;*/
+  border-radius: 3px;
 }
 
 body {
@@ -24,21 +25,71 @@ header p {
 }
 
 header ul {
-  clear: both;
-  float: left;
+  float: right;
 }
 
 header ul li {
-  display: inline;
+  display: inline-block;
 }
 
-header nav ol li a p {
-  display: inline;
+header ol li {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #BBB;
+  display: inline-block;
+}
+
+header ol li:last-child {
+  border: none;
+}
+
+header ol li a {
+  text-decoration: none;
+  color: blue;
+}
+
+header ol {
+  text-align: center;
+  font-size: 40px;
+  clear:both;
+  padding: 5px 0 5px 0;
+  margin: 5px 0 5px 0;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+main section {
+  text-align: justify;
+  display: inline-block;
+  padding: 10px 10px 10px 5px;
+  width: 300px;
+  border-right: 1px solid #BBB;
+}
+
+main section img {
+  float: left;
+  border-radius: 50%;
+}
+
+main section h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+main section p {
+  clear: both;
+}
+
+main section:last-child {
+  border: none;
 }
 
 #header-logo {
   display: inline;
   float: left;
+  margin: 0 5px 5px 0;
 }
 
 #header-text {
@@ -46,5 +97,6 @@ header nav ol li a p {
 }
 
 #header-bar {
+  margin: 5px 0 5px 0;
   display: block;
 }
