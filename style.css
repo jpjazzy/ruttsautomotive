@@ -1,17 +1,34 @@
 /* App styles */
 
+/************************************
+* COLOR Scheme
+* Primary: #0600CA
+* Secondary: #B29400
+* Tertiary: #FFD400
+/************************************/
 * {
   /*outline: 1px dashed black;*/
   border-radius: 3px;
 }
 
+a span {
+  color: #222;
+  transition: 350ms ease all;
+}
+
+a span:hover {
+  color: #0600CA;
+  font-size: 102%;
+}
+
 body {
+  background: #DDD;
   max-width: 960px;
   margin: 0 auto;
 }
 
 footer {
-  background: #CCC;
+
 }
 
 header h1 {
@@ -54,7 +71,6 @@ header ol {
   clear:both;
   padding: 5px 0 5px 0;
   margin: 5px 0 5px 0;
-  border: 1px solid #000;
   border-radius: 3px;
 }
 
@@ -126,7 +142,54 @@ footer ol li {
 
 }
 
+#banner-image {
+  width: 100%;
+  max-width: 960px;
+}
+
 #header-bar {
+  font-size: 90%;
+  width: 100%;
+  max-width: 960px;
+  border-radius: 8px;
+  background: linear-gradient(#000, #333);
+  color: #fff;
   margin: 5px 0 5px 0;
   display: block;
+}
+
+#header-bar strong {
+  font-weight: bold;
+  font-size: 105%;
+}
+
+#header-bar span {
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+}
+
+#header-bar span:first-child {
+  padding: 0 0 0 5px;
+  width: 320px;
+}
+
+.sb-crossfade {
+  position: relative;
+  height:24px;
+  width:24px;
+  margin:0 auto;
+}
+
+.sb-crossfade img {
+  position:absolute;
+  left: 0;
+  -webkit-transition: opacity 350ms ease-in-out;
+  -moz-transition: opacity 350ms ease-in-out;
+  -o-transition: opacity 350ms ease-in-out;
+  transition: opacity 350ms ease-in-out;
+}
+
+.sb-crossfade img.top:hover {
+  opacity: 0;
 }
