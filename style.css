@@ -12,27 +12,49 @@
 }
 
 a span {
-  color: #222;
+  color: #FFF;
   transition: 350ms ease all;
 }
 
 a span:hover {
   color: #0600CA;
-  font-size: 102%;
 }
 
 body {
-  background: #DDD;
-  max-width: 960px;
+  width: 100%;
   margin: 0 auto;
 }
 
 footer {
+  text-align: center;
   border-top: 1px solid #BBB;
-  background: linear-gradient(#DDD, #CCC);
+  background: #1F2126;
+  color: #fff;
+}
+
+footer section p a {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  transition: 350ms all;
+}
+
+footer section p a:hover {
+  font-weight: bold;
+  color: #0600CA;
+}
+
+footer section {
+  margin-top: 30px;
+}
+
+footer p:last-child {
+  display: block;
 }
 
 header {
+  background: #1F2126;
+  color: #FFF;
   width: 100%;
 }
 
@@ -57,7 +79,6 @@ header ul li {
 header ol li {
   padding-left: 10px;
   padding-right: 10px;
-  border-right: 1px solid #BBB;
   display: inline-block;
 }
 
@@ -71,13 +92,13 @@ header ol li a {
 }
 
 header ol {
+  background: #1F2126;
   text-align: center;
   font-size: 40px;
   clear:both;
   padding: 5px 0 5px 0;
   margin: 5px 0 5px 0;
   border-radius: 3px;
-  border-top: 1px solid #BBB;
 }
 
 header nav {
@@ -85,6 +106,8 @@ header nav {
 }
 
 main {
+  max-width: 960px;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 
@@ -134,8 +157,7 @@ footer ol li {
 }
 
 .current span {
-  color: #B29400;
-  text-decoration: underline;
+  color: #FFD400;
 }
 
 .contact-info {
@@ -155,6 +177,11 @@ footer ol li {
   padding: 0 5px 0 5px;
 }
 
+#heading-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 #header-logo {
   display: inline;
   float: left;
@@ -165,10 +192,10 @@ footer ol li {
 
 }
 
-#banner-image {
+#banner-image img {
   width: 100%;
   max-width: 960px;
-  border-radius: 10%;
+  border-radius: 50%;
   opacity: .9;
   transition: 1s all;
 }
@@ -184,8 +211,8 @@ footer ol li {
   border-radius: 8px;
   background: linear-gradient(#000, #333);
   color: #fff;
-  margin: 5px 0 5px 0;
   display: block;
+  margin-bottom: 20px;
 }
 
 #header-bar strong {
@@ -202,6 +229,31 @@ footer ol li {
 #header-bar span:first-child {
   padding: 0 0 0 5px;
   width: 320px;
+}
+
+#call-now-button {
+  background: #0600CA;
+  font-size: 50px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  border-radius: 50%;
+  text-shadow: 4px 4px #000;
+  transition: 2s all;
+}
+
+#call-now-button:hover {
+  transform: rotateY(360deg);
+}
+
+#call-now-button img {
+  width: 100px;
+  height: 100px;
+  float:left;
+}
+
+.footer-container img {
+  width: 15px;
+  height: 15px;
 }
 
 .sb-crossfade {
@@ -296,4 +348,97 @@ footer ol li {
   height:100px;
   width:100px;
   opacity: 0;
+}
+
+/************************* SLIDER CSS ************************/
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }
