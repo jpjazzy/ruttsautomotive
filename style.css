@@ -28,7 +28,12 @@ body {
 }
 
 footer {
+  border-top: 1px solid #BBB;
+  background: linear-gradient(#DDD, #CCC);
+}
 
+header {
+  width: 100%;
 }
 
 header h1 {
@@ -72,6 +77,15 @@ header ol {
   padding: 5px 0 5px 0;
   margin: 5px 0 5px 0;
   border-radius: 3px;
+  border-top: 1px solid #BBB;
+}
+
+header nav {
+  margin-top: 100px;
+}
+
+main {
+  margin-bottom: 30px;
 }
 
 main section {
@@ -82,7 +96,7 @@ main section {
   border-right: 1px solid #BBB;
 }
 
-main section img {
+main section div {
   float: left;
   border-radius: 50%;
 }
@@ -119,9 +133,18 @@ footer ol li {
   padding: 6px 0 0 0;
 }
 
+.current span {
+  color: #B29400;
+  text-decoration: underline;
+}
+
 .contact-info {
-  padding: 6px 0 0 0;
+  padding: 6px 10px 10px 10px;
   display: block;
+}
+
+.contact-info span {
+  margin-left: 20px;
 }
 
 .footer-container {
@@ -145,6 +168,13 @@ footer ol li {
 #banner-image {
   width: 100%;
   max-width: 960px;
+  border-radius: 10%;
+  opacity: .9;
+  transition: 1s all;
+}
+
+#banner-image:hover {
+  opacity: 1;
 }
 
 #header-bar {
@@ -191,5 +221,79 @@ footer ol li {
 }
 
 .sb-crossfade img.top:hover {
+  opacity: 0;
+}
+
+.article-cf {
+  position: relative;
+  height:100px;
+  width:100px;
+  margin:0 auto;
+}
+
+.article-cf img {
+  position:absolute;
+  left: 0;
+  -webkit-transition: opacity 350ms ease-in-out;
+  -moz-transition: opacity 350ms ease-in-out;
+  -o-transition: opacity 350ms ease-in-out;
+  transition: opacity 350ms ease-in-out;
+}
+
+.article-cf img.top:hover {
+  opacity: 0;
+}
+
+.contact-cf {
+  display: inline;
+  position: relative;
+  height:15px;
+  width:15px;
+  margin:0 auto;
+}
+
+.contact-cf img {
+  position:absolute;
+  height:15px;
+  width:15px;
+  left: 0;
+  -webkit-transition: opacity 350ms ease-in-out;
+  -moz-transition: opacity 350ms ease-in-out;
+  -o-transition: opacity 350ms ease-in-out;
+  transition: opacity 350ms ease-in-out;
+}
+
+.contact-cf img.top:hover {
+  height:15px;
+  width:15px;
+  opacity: 0;
+}
+
+#header-logo {
+
+  float: left;
+  margin: 0 5px 5px 0;
+
+  display: inline;
+  position: relative;
+  height:100px;
+  width:100px;
+  margin:0 auto;
+}
+
+#header-logo img {
+  position:absolute;
+  height:100px;
+  width:100px;
+  left: 0;
+  -webkit-transition: opacity 350ms ease-in-out;
+  -moz-transition: opacity 350ms ease-in-out;
+  -o-transition: opacity 350ms ease-in-out;
+  transition: opacity 350ms ease-in-out;
+}
+
+#header-logo img.top:hover {
+  height:100px;
+  width:100px;
   opacity: 0;
 }
