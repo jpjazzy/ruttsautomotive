@@ -52,6 +52,10 @@ footer p:last-child {
   display: block;
 }
 
+footer ul img {
+  border-radius: 50%;
+}
+
 header {
   background: #1F2126;
   color: #FFF;
@@ -60,11 +64,11 @@ header {
 
 header h1 {
   font-weight: bold;
-  font-size: 110%;
+  font-size: 50px;
 }
 
 header p {
-  font-size: 80%;
+  font-size: 25px;
   font-style: italic;
 }
 
@@ -102,7 +106,7 @@ header ol {
 }
 
 header nav {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 main {
@@ -182,14 +186,10 @@ footer ol li {
   margin: 0 auto;
 }
 
-#header-logo {
-  display: inline;
-  float: left;
-  margin: 0 5px 5px 0;
-}
-
 #header-text {
-
+  margin-left: 20px;
+  padding-top: 25px;
+  display: inline-block;
 }
 
 #banner-image img {
@@ -205,30 +205,20 @@ footer ol li {
 }
 
 #header-bar {
-  font-size: 90%;
-  width: 100%;
-  max-width: 960px;
-  border-radius: 8px;
-  background: linear-gradient(#000, #333);
-  color: #fff;
+  font-size: 15px;
+  margin-top: 20px;
+  float: right;
+  text-align: right
+}
+
+#header-bar span {
+  padding-top: 15px;
   display: block;
-  margin-bottom: 20px;
 }
 
 #header-bar strong {
   font-weight: bold;
   font-size: 105%;
-}
-
-#header-bar span {
-  width: 300px;
-  display: inline-block;
-  text-align: center;
-}
-
-#header-bar span:first-child {
-  padding: 0 0 0 5px;
-  width: 320px;
 }
 
 #call-now-button {
@@ -322,15 +312,12 @@ footer ol li {
 }
 
 #header-logo {
-
   float: left;
-  margin: 0 5px 5px 0;
-
   display: inline;
   position: relative;
-  height:100px;
-  width:100px;
-  margin:0 auto;
+  height: 100px;
+  width: 100px;
+  margin: 20px auto;
 }
 
 #header-logo img {
