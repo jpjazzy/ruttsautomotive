@@ -5,6 +5,7 @@ This is a log of the hours put into this website
 
 11/12 - Scaffolding and basic structure for home page - 6 hours
 11/13 - Getting images, CSS styling, adding Rutt's information - 6 Hours
+11/14 - Revamped man page and added more of rutts information - 5 Hours
 
 
 ********************************************/
