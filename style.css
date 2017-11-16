@@ -149,6 +149,19 @@ main p {
   padding: 15px 0px 15px 20px;
 }
 
+main ul {
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px 0px 15px 20px;
+}
+
+main ul li {
+  line-height: 1.5em;
+  list-style-image: url(./img/bullet-icon.png);
+  margin-left: 100px;
+}
+
 main section p {
   clear: both;
 }
@@ -174,7 +187,7 @@ footer ol li {
   padding: 6px 0 0 0;
 }
 
-b {
+form b {
   font-weight: bold;
   color: #FF0000;
 }
@@ -191,11 +204,60 @@ form label {
 }
 
 form input {
+  border-radius: 3px;
+  background: #EEE;
+  border: 1px solid #1F2126;
+  padding: 5px 5px 5px 5px;
+  font-size: 18px;
+  width: 300px;
+  float: right;
+  display: inline-block;
+}
+
+.radio_label {
+  float:right;
+}
+
+input[type=radio] {
+  width: 20px;
+  margin-right:20px;
+}
+
+form input[type=submit] {
+  text-transform: uppercase;
+  width: 310px;
+  font-weight: bold;
+  text-align: center;
+}
+
+form textarea {
+  padding: 5px 5px 5px 5px;
+  font-size: 18px;
+  width: 300px;
+  background: #EEE;
+  border: 1px solid #1F2126;
+  float: right;
   display: inline-block;
 }
 
 form fieldset {
+  margin: 10px 10px 10px 10px;
   display: block;
+}
+
+form input[type=radio] {
+  display: inline-block;
+}
+
+form input[type=submit] {
+  background: #000;
+  color: #fff;
+}
+
+form h3 {
+  font-weight: bold;
+  padding-left: 10px;
+  margin-bottom: 20px;
 }
 
 
@@ -218,6 +280,58 @@ form fieldset {
   width: 460px;
   display: inline-block;
   padding: 0 5px 0 5px;
+}
+
+.contact-section {
+  background: #EEE;
+  border: 1px solid #CCC;
+  width: 450px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+}
+
+.contact-section h3 {
+  margin-top: 10px;
+  clear:both;
+  font-weight: bold;
+}
+
+.contact-section p {
+  font-size: 18px;
+}
+
+.contact-section a {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.contact-section b {
+  font-weight: bold;
+  text-align: left;
+}
+
+
+#contact-callus {
+  background: #0600CA;
+  font-size: 50px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  border-radius: 50%;
+  text-shadow: 4px 4px #000;
+  transition: 2s all;
+}
+
+#contact-callus img {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  margin-top: 10px;
+  float:left;
+}
+
+#contact-callus p {
+  font-size: 30px;
+  color: #fff;
 }
 
 #heading-container {
