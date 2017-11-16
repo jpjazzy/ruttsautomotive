@@ -187,7 +187,7 @@ footer ol li {
   padding: 6px 0 0 0;
 }
 
-form b {
+b {
   font-weight: bold;
   color: #FF0000;
 }
@@ -303,11 +303,6 @@ form h3 {
 .contact-section a {
   font-size: 20px;
   margin-left: 20px;
-}
-
-.contact-section b {
-  font-weight: bold;
-  text-align: left;
 }
 
 
