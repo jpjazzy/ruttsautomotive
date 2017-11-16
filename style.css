@@ -110,6 +110,7 @@ header nav {
 }
 
 main {
+  min-height: 100%;
   max-width: 960px;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -132,7 +133,20 @@ main section h2 {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  font-style: italic;
+}
+
+main h2 {
+  margin: 20px 20px 20px 20px;
+  text-align: left;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+main p {
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px 0px 15px 20px;
 }
 
 main section p {
@@ -159,6 +173,31 @@ footer>p:last-child {
 footer ol li {
   padding: 6px 0 0 0;
 }
+
+b {
+  font-weight: bold;
+  color: #FF0000;
+}
+
+form {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px 0px 15px 20px;
+
+}
+
+form label {
+  display: inline-block;
+}
+
+form input {
+  display: inline-block;
+}
+
+form fieldset {
+  display: block;
+}
+
 
 .current span {
   color: #FFD400;
