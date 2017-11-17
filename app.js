@@ -7,12 +7,22 @@ This is a log of the hours put into this website
 11/13 - Getting images, CSS styling, adding Rutt's information - 6 Hours
 11/14 - Revamped man page and added more of rutts information - 5 Hours
 11/15 - Added sup pages and started inputting information - 2 hours
-
+11/16 - Added secondary page information and stylings - 3.5 hours
 ********************************************/
 
 /************* SLIDER JS ************************/
 var slideIndex = 1;
 showSlides(slideIndex);
+
+var transitionSpeed = 8000;
+
+var autoplay = setInterval(function() {plusSlides(1)}, transitionSpeed);
+
+function userClickPlusSlides(n) {
+  clearInterval(autoplay);
+  plusSlides(n);
+  autoplay = setInterval(function() {plusSlides(1)}, transitionSpeed);
+}
 
 function plusSlides(n) {
   showSlides(slideIndex += n);

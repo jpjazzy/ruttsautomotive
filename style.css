@@ -162,6 +162,12 @@ main ul li {
   margin-left: 100px;
 }
 
+main ol li {
+  line-height: 1.5em;
+  list-style-image: url(./img/bullet-icon.png);
+  margin-left: 100px;
+}
+
 main section p {
   clear: both;
 }
@@ -260,7 +266,21 @@ form h3 {
   margin-bottom: 20px;
 }
 
+main h3 {
+  font-weight: bold;
+  padding: 0 0 0 20px;
+}
 
+.tech-bio {
+  padding: 10px 10px 10px 10px
+}
+
+.tech-bio img {
+  border-radius: 50%;
+  max-width: 100px;
+  padding-right: 10px;
+  float: left;
+}
 .current span {
   color: #FFD400;
 }
@@ -283,10 +303,11 @@ form h3 {
 }
 
 .contact-section {
-  background: #EEE;
+  background: #AAA;
   border: 1px solid #CCC;
-  width: 450px;
-  display: inline-block;
+  width: 80%;
+  margin: 10px auto;
+  display: block;
   padding: 10px 10px 10px 10px;
 }
 
@@ -309,7 +330,8 @@ form h3 {
 #contact-callus {
   background: #0600CA;
   font-size: 50px;
-  margin-top: 10px;
+  margin: 10px auto;
+  max-width: 450px;
   text-transform: uppercase;
   border-radius: 50%;
   text-shadow: 4px 4px #000;
@@ -558,9 +580,9 @@ form h3 {
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 2s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
 }
 
 @-webkit-keyframes fade {
