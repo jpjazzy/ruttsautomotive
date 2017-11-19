@@ -8,7 +8,7 @@ This is a log of the hours put into this website
 11/14 - Revamped man page and added more of rutts information - 5 Hours
 11/15 - Added sup pages and started inputting information - 2 hours
 11/16 - Added secondary page information and stylings - 3.5 hours
-11/17 - Added autoplay to slider, added about us information, further styled app - 2 hours
+11/17 - Added autoplay to slider, added about us information, further styled app - 2 hour
 ********************************************/
 
 /************* SLIDER JS ************************/

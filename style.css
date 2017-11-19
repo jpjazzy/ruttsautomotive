@@ -277,7 +277,7 @@ main h3 {
 
 .tech-bio img {
   border-radius: 50%;
-  max-width: 100px;
+  max-height: 100px;
   padding-right: 10px;
   float: left;
 }
@@ -303,7 +303,8 @@ main h3 {
 }
 
 .contact-section {
-  background: #AAA;
+  background: #fff;
+  color: #000;
   border: 1px solid #CCC;
   width: 80%;
   margin: 10px auto;
@@ -315,6 +316,7 @@ main h3 {
   margin-top: 10px;
   clear:both;
   font-weight: bold;
+  font-size: 25px;
 }
 
 .contact-section p {
@@ -322,7 +324,6 @@ main h3 {
 }
 
 .contact-section a {
-  font-size: 20px;
   margin-left: 20px;
 }
 
@@ -507,6 +508,10 @@ main h3 {
   opacity: 0;
 }
 
+.bold-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 /************************* SLIDER CSS ************************/
 /* Slideshow container */
 .slideshow-container {
