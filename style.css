@@ -17,7 +17,7 @@ a span {
 }
 
 a span:hover {
-  color: #0600CA;
+  text-shadow: 1px 0 #FFD400, 0 0px #FFD400, 1px 0 #FFD400, 0 -1px #FFD400;
 }
 
 body {
@@ -32,7 +32,7 @@ footer {
   color: #fff;
 }
 
-footer section p a {
+footer p a {
   font-weight: bold;
   color: #fff;
   text-decoration: none;
@@ -41,7 +41,7 @@ footer section p a {
 
 footer section p a:hover {
   font-weight: bold;
-  color: #0600CA;
+  text-shadow: 1px 0 #FFD400, 0 0px #FFD400, 1px 0 #FFD400, 0 -1px #FFD400;
 }
 
 footer section {
