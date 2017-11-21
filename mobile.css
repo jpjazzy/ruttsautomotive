@@ -4,6 +4,7 @@
       width: 80%;
       margin: 0 auto;
       display: block;
+      border: none;
     }
 
     #information-bar section h2 {
@@ -31,7 +32,8 @@
     }
 
     form fieldset label {
-      font-size: 50px;
+      font-size: 45px;
+      max-width: 600px;
     }
 
     .radio_label {
