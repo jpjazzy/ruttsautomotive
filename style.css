@@ -290,7 +290,8 @@ main h3 {
   padding: 10px;
   margin: 5px;
   border-radius: 10px;
-  background: #DDD;
+  background: #04007F;
+  color: #fff;
 }
 
 .tech-bio img {
@@ -301,7 +302,7 @@ main h3 {
 }
 
 .tech-bio h3 {
-  border-bottom: 1px solid #AAA;
+  border-bottom: 1px solid #0600CA;
   margin-left: 100px;
   font-size: 25px;
   text-align: center;

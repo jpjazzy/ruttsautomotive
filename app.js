@@ -9,9 +9,9 @@ This is a log of the hours put into this website
 11/15 - Added sup pages and started inputting information - 2 hours
 11/16 - Added secondary page information and stylings - 3.5 hours
 11/17 - Added autoplay to slider, added about us information, further styled app - 2 hour
-11/19 - Added Tech images to about me section and updated some styling - 1 hr
+11/19 - Added Tech images to about me section and updated some styling - 1 hour
 11/20 - Styled and input tech about us section and other about page information - 2 hours
-
+11/21 - Added new color scheme and made further adjustments to mobile layout - 1 hour
 ********************************************/
 
 /************* SLIDER JS ************************/
