@@ -116,6 +116,15 @@ main {
   margin-bottom: 30px;
 }
 
+main strong {
+  font-weight: bold;
+}
+
+main p a {
+  color: #0600CA;
+  text-decoration: none;
+}
+
 main section {
   text-align: justify;
   display: inline-block;
@@ -272,7 +281,12 @@ main h3 {
 }
 
 .tech-bio {
-  padding: 10px 10px 10px 10px
+  width: 300px;
+  height: 100px;
+  padding: 10px 10px 10px 10px;
+  margin: 20px;
+  border-radius: 10px;
+  background: #DDD;
 }
 
 .tech-bio img {
@@ -281,6 +295,18 @@ main h3 {
   padding-right: 10px;
   float: left;
 }
+
+.tech-bio h3 {
+  border-bottom: 1px solid #AAA;
+  margin-left: 100px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.tech-bio p {
+    text-align: center;
+}
+
 .current span {
   color: #FFD400;
 }
