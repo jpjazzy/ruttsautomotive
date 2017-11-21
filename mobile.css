@@ -1,6 +1,96 @@
 /* Mobile App Styles */
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    #information-bar section {
+      width: 80%;
+      margin: 0 auto;
+      display: block;
+    }
+
+    #information-bar section h2 {
+      font-size: 75px;
+      text-align: center;
+    }
+
+    .tech-bio {
+      width: 80%;
+      margin: 10px auto;
+    }
+
+    .tech-bio h3 {
+      font-size: 50px;;
+    }
+
+    .tech-bio p {
+      font-size: 30px;
+    }
+
+    main h2 {
+      text-align: center;
+      font-size: 75px;
+      margin-top: 110px;
+    }
+
+    form fieldset label {
+      font-size: 50px;
+    }
+
+    .radio_label {
+      font-size: 20px;
+    }
+
+    form h3 {
+      font-size: 50px;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 10px;
+    }
+
+    main p {
+    font-size: 20px;
+    }
+
+    footer {
+      display: block;
+    }
+
+    .footer-container {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    footer img {
+      display: none;
+    }
+
+    footer p, footer span {
+      font-size: 50px;
+    }
+
+    footer div {
+      margin: 10px;
+    }
+
+    #header-bar {
+      display: none;
+    }
+
     #heading-container {
-      border: 5px orange solid;
+      text-align: center;
+    }
+
+    #heading-container img {
+      display: none;
+    }
+
+    #header-text h1 {
+      font-size: 150px;
+    }
+
+    #header-text p {
+      font-size: 50px;
+    }
+    nav ol li {
+      font-size: 100px;
+      display: block;
     }
 	}
