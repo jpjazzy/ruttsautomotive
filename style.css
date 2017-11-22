@@ -408,6 +408,10 @@ main h3 {
   margin: 0 auto;
 }
 
+#map-container {
+  margin-left: 20px;
+}
+
 #header-text {
   color: #BF9F00;
   margin-left: 20px;
