@@ -408,6 +408,30 @@ main h3 {
   margin: 0 auto;
 }
 
+#schedule-now-container {
+	margin-top: 100px;
+	border-radius: 3px;
+	float: right;
+}
+
+#schedule-now-container img {
+	border-radius: 3px;
+}
+
+#schedule-now-container p {
+	background: #04007F;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	transition: 350ms all;
+}
+
+#schedule-now-container p:hover {
+	background: #0600CA;
+	font-size: 120%;
+	color: #fff;
+}
+
 #map-container {
   margin-left: 20px;
 }
