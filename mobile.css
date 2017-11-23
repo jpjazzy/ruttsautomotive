@@ -11,6 +11,21 @@
       display:none;
     }
 
+    #mobile-schedule-now {
+      width: 50%;
+      margin: 50px auto;
+      display: block;
+      border-radius: 10px;
+    }
+
+    #mobile-schedule-now a {
+      padding: 10px;
+      font-size: 50px;
+      background: #000;
+      color: #fff;
+      border-radius: 10px;
+    }
+
     #information-bar section h2 {
       font-size: 75px;
       text-align: center;
