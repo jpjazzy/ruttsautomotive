@@ -45,14 +45,14 @@
       <p>
         <b>* Indicates a required field.</b>
       </p>
-      <form action="mailto:jpjazzy@hotmail.com" method="post" enctype="text/plain">
+      <form action="./form2mail/sendmail.php" id="request-form" method="post" role="form">
 
           <fieldset>
             <label>
               Name:
               <b>*</b>
             </label>
-              <input type="text" name="form-name" required autocomplete="off" />
+              <input type="text" name="name" required autocomplete="off" />
           </fieldset>
 
           <fieldset>
@@ -60,7 +60,7 @@
               Email address:
               <b>*</b>
             </label>
-              <input type="email" name="form-email" required autocomplete="off" />
+              <input type="email" name="email" required autocomplete="off" />
           </fieldset>
 
           <fieldset>
@@ -128,7 +128,7 @@
             <label>
               Mileage:
             </label>
-              <input type="number" name="car-mileage" required autocomplete="off" />
+              <input type="number" name="car-mileage" autocomplete="off" />
           </fieldset>
 
           <fieldset>
