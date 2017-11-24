@@ -188,13 +188,13 @@ main ul {
 
 main ul li {
   line-height: 1.5em;
-  list-style-image: url(./img/bullet-icon.png);
+  list-style-image: url(../img/bullet-icon.png);
   margin-left: 100px;
 }
 
 main ol li {
   line-height: 1.5em;
-  list-style-image: url(./img/bullet-icon.png);
+  list-style-image: url(../img/bullet-icon.png);
   margin-left: 100px;
 }
 
